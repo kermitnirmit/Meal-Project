@@ -45,7 +45,7 @@ for ingredient in user_ingredients:
     else:
         print(f"No matches found for the ingredient '{ingredient}'")
 
-# The for loop will go the matches and print out if the food item and the ingredient match the option to make the product.
+# The for loop will go through the matches and print out if the food item and the ingredient match the option to make the product.
 
 for food_item in matching_food_items:
     if can_make_food(food_item, user_ingredients):
